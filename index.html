@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bhuvan Mohan Naik</title>
+  <meta name="description" content="Bhuvan Mohan Naik is a Computer Science Engineering student at Government Engineering College, Karwar, learning Java and building for the web with HTML, CSS and JavaScript.">
+  <meta name="theme-color" content="#0F2C30">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bhuvan Mohan Naik">
+  <meta property="og:description" content="Computer Science Engineering student at GEC Karwar. Learning Java, building for the web.">
+  <meta property="og:image" content="assets/bhuvan.jpg">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230F2C30'/%3E%3Cpath d='M8 44c8-6 16-6 24 0s16 6 24 0' fill='none' stroke='%238FD8C6' stroke-width='5' stroke-linecap='round'/%3E%3Ctext x='32' y='34' text-anchor='middle' font-family='Arial,sans-serif' font-weight='800' font-size='24' fill='%23ECE3CF'%3EB%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+  <link rel="preload" as="image" href="assets/bhuvan.jpg">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script>
+    // Hide animated elements only when JS runs; reveal them anyway if the animation libraries fail to load.
+    document.documentElement.classList.add('js');
+    setTimeout(function () {
+      if (!window.__animReady) document.documentElement.classList.remove('js');
+    }, 3000);
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <nav class="nav wrap" aria-label="Main">
+      <a class="brand" href="#top" aria-label="Bhuvan Mohan Naik, back to top">
+        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><path d="M4 26c5.3-4 10.7-4 16 0s10.7 4 16 0" /></svg>
+        <span>Bhuvan Naik</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" data-nav-toggle>
+        <span class="nav-toggle-lines" aria-hidden="true"></span>
+        <span class="sr-only">Menu</span>
+      </button>
+
+      <ul class="nav-links" id="nav-links" data-nav-links>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="nav-indicator" aria-hidden="true" data-nav-indicator></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="top">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <h1 class="hero-name" data-split aria-label="Bhuvan Mohan Naik">
+            <span class="line">Bhuvan</span>
+            <span class="line">Mohan Naik</span>
+          </h1>
+          <p class="hero-title" data-hero-fade>Computer Science Engineering student</p>
+          <p class="hero-intro" data-hero-fade>
+            I'm in my second year at Government Engineering College, Karwar. I'm building my programming
+            fundamentals with Java and making websites with HTML, CSS and JavaScript.
+          </p>
+          <div class="hero-actions" data-hero-fade>
+            <a class="btn btn-primary" href="#projects">View projects</a>
+            <a class="btn btn-ghost" href="#contact">Contact me</a>
+            <!-- ENABLE WHEN READY: resume PDF. Save it as assets/Bhuvan-Mohan-Naik-Resume.pdf, then uncomment.
+            <a class="btn btn-ghost" href="assets/Bhuvan-Mohan-Naik-Resume.pdf" download>Download resume</a>
+            -->
+          </div>
+        </div>
+
+        <figure class="hero-photo" data-hero-photo>
+          <img src="assets/bhuvan.jpg" alt="Bhuvan Mohan Naik, smiling slightly, wearing a khaki college shirt and ID lanyard" width="800" height="1422">
+        </figure>
+      </div>
+
+      <svg class="tide" viewBox="0 0 2400 120" preserveAspectRatio="none" aria-hidden="true">
+        <path class="tide-back" d="M0 70 C200 40 400 40 600 70 S1000 100 1200 70 S1600 40 1800 70 S2200 100 2400 70 V120 H0Z" />
+        <path class="tide-front" d="M0 82 C200 62 400 62 600 82 S1000 102 1200 82 S1600 62 1800 82 S2200 102 2400 82 V120 H0Z" />
+      </svg>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="wrap about-grid">
+        <div class="about-copy">
+          <h2 class="section-title" id="about-title" data-reveal>About me</h2>
+          <p class="lead">
+            I enjoy exploring technology and understanding how software works, and I get better
+            through practical work.
+          </p>
+          <p>
+            I'm pursuing a B.E. in Computer Science and Engineering at Government Engineering College,
+            Karwar. Right now I'm focusing on frontend development and strengthening my programming
+            foundation. I have worked with C, I'm learning Java, and I've started building websites
+            on my own with HTML, CSS and beginner-level JavaScript.
+          </p>
+          <p>
+            Next I want to learn React so I can build more responsive and polished interfaces. Once my
+            frontend foundation is stronger, I plan to explore backend development, building on what
+            I know of Java.
+          </p>
+        </div>
+
+        <dl class="facts">
+          <div class="fact">
+            <dt>Studying</dt>
+            <dd>B.E. Computer Science and Engineering, GEC Karwar</dd>
+          </div>
+          <div class="fact">
+            <dt>Currently</dt>
+            <dd>2nd year, 3rd semester</dd>
+          </div>
+          <div class="fact">
+            <dt>Graduating</dt>
+            <dd>2029</dd>
+          </div>
+          <div class="fact">
+            <dt>Looking for</dt>
+            <dd>Software development roles through off-campus placements</dd>
+          </div>
+          <div class="fact">
+            <dt>Interested in</dt>
+            <dd>Software development, frontend development, Java and programming fundamentals, and backend development as a future goal</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section class="section skills" id="skills" aria-labelledby="skills-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="section-title" id="skills-title" data-reveal>Skills</h2>
+          <p class="section-note">An honest look at where I am today. I'll update it as I learn.</p>
+        </div>
+
+        <div class="skill-groups">
+          <div class="skill-group">
+            <h3>Programming languages</h3>
+            <ul class="skill-list">
+              <li><span class="skill-name">C</span><span class="skill-level">Good foundation</span></li>
+              <li><span class="skill-name">Java</span><span class="skill-level">Beginner, currently learning</span></li>
+              <li><span class="skill-name">Python</span><span class="skill-level">Can read and understand code, limited hands-on practice</span></li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3>Frontend development</h3>
+            <ul class="skill-list">
+              <li><span class="skill-name">HTML</span><span class="skill-level">Beginner, can build basic web pages on my own</span></li>
+              <li><span class="skill-name">CSS</span><span class="skill-level">Beginner, can style basic web pages</span></li>
+              <li><span class="skill-name">JavaScript</span><span class="skill-level">Beginner, can add basic interactivity</span></li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3>Tools</h3>
+            <ul class="skill-list">
+              <li><span class="skill-name">Visual Studio Code</span></li>
+              <li><span class="skill-name">Git</span></li>
+              <li><span class="skill-name">GitHub</span></li>
+              <li><span class="skill-name">Command Prompt</span><span class="skill-level">Basic, personal use</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section class="section projects" id="projects" aria-labelledby="projects-title">
+      <div class="wrap">
+        <h2 class="section-title" id="projects-title" data-reveal>Projects</h2>
+
+        <article class="project">
+          <div class="project-copy">
+            <h3 class="project-name">TaskMate</h3>
+            <p class="project-sub">A productivity app for students</p>
+            <ul class="tags" aria-label="Built with">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li>
+            </ul>
+            <p>
+              TaskMate helps students organize and keep track of their tasks. You add a task with its
+              subject and deadline, then follow your progress from one dashboard.
+            </p>
+
+            <h4>Features</h4>
+            <ul class="ticks">
+              <li>Add tasks with a title, subject and deadline</li>
+              <li>See every task on a dashboard</li>
+              <li>Track total, pending and completed tasks</li>
+              <li>Mark tasks as completed</li>
+              <li>Filter by all, pending or completed</li>
+            </ul>
+
+            <h4>What I learned</h4>
+            <ul class="ticks">
+              <li>Structuring a web page with HTML</li>
+              <li>Styling an interface with CSS</li>
+              <li>Using JavaScript to manage task data and update the page</li>
+              <li>Handling user interactions and rendering filtered lists</li>
+            </ul>
+
+            <div class="project-links">
+              <a class="btn btn-primary" href="https://bhuvan-naik.github.io/Taskmate/" target="_blank" rel="noopener">Open TaskMate</a>
+              <a class="btn btn-ghost" href="https://github.com/bhuvan-naik/Taskmate" target="_blank" rel="noopener">View code on GitHub</a>
+            </div>
+
+            <!-- ENABLE WHEN READY: TaskMate screenshots. Add images to assets/, then uncomment.
+            <div class="shots">
+              <img src="assets/taskmate-1.png" alt="TaskMate dashboard showing task counts and a task list" loading="lazy">
+              <img src="assets/taskmate-2.png" alt="TaskMate add-task form" loading="lazy">
+            </div>
+            -->
+          </div>
+
+          <!-- Interactive TaskMate preview -->
+          <div class="demo" data-taskmate>
+            <div class="demo-bar">
+              <span class="demo-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+              <span class="demo-title">Try TaskMate here</span>
+              <button class="demo-reset" type="button" data-tm-reset>Reset</button>
+            </div>
+
+            <div class="demo-body">
+              <form class="tm-form" data-tm-form autocomplete="off">
+                <label class="tm-field tm-field-title">
+                  <span>Task</span>
+                  <input name="title" type="text" required maxlength="60" placeholder="Finish lab record">
+                </label>
+                <label class="tm-field">
+                  <span>Subject</span>
+                  <input name="subject" type="text" required maxlength="30" placeholder="Data Structures">
+                </label>
+                <label class="tm-field">
+                  <span>Deadline</span>
+                  <input name="deadline" type="date" required>
+                </label>
+                <button class="btn btn-primary tm-add" type="submit">Add task</button>
+              </form>
+
+              <div class="tm-stats" aria-live="polite">
+                <div><b data-tm-count="total">0</b><span>Total</span></div>
+                <div><b data-tm-count="pending">0</b><span>Pending</span></div>
+                <div><b data-tm-count="done">0</b><span>Completed</span></div>
+              </div>
+
+              <div class="tm-filters" role="group" aria-label="Filter tasks" data-tm-filters>
+                <span class="tm-pill" aria-hidden="true" data-tm-pill></span>
+                <button type="button" data-filter="all" aria-pressed="true">All</button>
+                <button type="button" data-filter="pending" aria-pressed="false">Pending</button>
+                <button type="button" data-filter="done" aria-pressed="false">Completed</button>
+              </div>
+
+              <ul class="tm-list" data-tm-list></ul>
+              <p class="tm-empty" data-tm-empty hidden></p>
+            </div>
+
+            <p class="demo-caption">A working preview of TaskMate's main features, rebuilt for this page. Your tasks are saved only in this browser. <a href="https://bhuvan-naik.github.io/Taskmate/" target="_blank" rel="noopener">Open the full app</a></p>
+          </div>
+        </article>
+
+        <!-- ENABLE WHEN READY: Other programming work (C and Java programs you can demonstrate and explain).
+        <div class="other-work">
+          <h3>Other programs</h3>
+          <ul class="work-list">
+            <li>
+              <span class="work-name">PROGRAM NAME</span>
+              <span class="work-lang">C</span>
+              <span class="work-desc">One-line description of what it does.</span>
+              <a href="https://github.com/bhuvan-naik/REPO" target="_blank" rel="noopener">Code</a>
+            </li>
+            <li>
+              <span class="work-name">PROGRAM NAME</span>
+              <span class="work-lang">Java</span>
+              <span class="work-desc">One-line description of what it does.</span>
+              <a href="https://github.com/bhuvan-naik/REPO" target="_blank" rel="noopener">Code</a>
+            </li>
+          </ul>
+        </div>
+        -->
+      </div>
+    </section>
+
+    <!-- ENABLE WHEN READY: Experience. Add only confirmed roles, dates and work. Also add <li><a href="#experience">Experience</a></li> to the nav.
+    <section class="section experience" id="experience" aria-labelledby="experience-title">
+      <div class="wrap">
+        <h2 class="section-title" id="experience-title" data-reveal>Experience</h2>
+        <article class="entry">
+          <div class="entry-head">
+            <h3>ROLE, ORGANIZATION</h3>
+            <p class="entry-meta">MONTH YEAR to MONTH YEAR</p>
+          </div>
+          <ul class="ticks">
+            <li>What you worked on</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+    -->
+
+    <!-- ================= JOURNEY ================= -->
+    <section class="section journey" id="journey" aria-labelledby="journey-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="section-title" id="journey-title" data-reveal>Learning journey</h2>
+          <p class="section-note">Where I started, what I'm learning now, and where I'm heading.</p>
+        </div>
+
+        <div class="path-wrap" data-journey>
+          <svg class="path-svg" aria-hidden="true">
+            <path class="path-track" data-path-track />
+            <path class="path-draw" data-path-draw />
+          </svg>
+
+          <ol class="stops">
+            <li class="stop" data-stop>
+              <span class="stop-dot" aria-hidden="true"></span>
+              <div class="stop-card">
+                <span class="stop-num">1</span>
+                <p class="stop-status">Foundation</p>
+                <h3>C</h3>
+                <p>My first programming language, and the one I know best so far.</p>
+              </div>
+            </li>
+            <li class="stop" data-stop>
+              <span class="stop-dot" aria-hidden="true"></span>
+              <div class="stop-card">
+                <span class="stop-num">2</span>
+                <p class="stop-status">Learning now</p>
+                <h3>Java</h3>
+                <p>Building my programming fundamentals.</p>
+              </div>
+            </li>
+            <li class="stop" data-stop>
+              <span class="stop-dot" aria-hidden="true"></span>
+              <div class="stop-card">
+                <span class="stop-num">3</span>
+                <p class="stop-status">Learning now</p>
+                <h3>HTML, CSS and JavaScript</h3>
+                <p>Improving through practical work: building and styling pages and adding interactivity.</p>
+              </div>
+            </li>
+            <li class="stop" data-stop>
+              <span class="stop-dot" aria-hidden="true"></span>
+              <div class="stop-card">
+                <span class="stop-num">4</span>
+                <p class="stop-status">Built</p>
+                <h3>TaskMate</h3>
+                <p>My first complete web app, a task tracker for students.</p>
+              </div>
+            </li>
+            <li class="stop stop-next" data-stop>
+              <span class="stop-dot" aria-hidden="true"></span>
+              <div class="stop-card">
+                <span class="stop-num">5</span>
+                <p class="stop-status">Up next</p>
+                <h3>React</h3>
+                <p>For building more responsive and polished web interfaces.</p>
+              </div>
+            </li>
+            <li class="stop stop-later" data-stop>
+              <span class="stop-dot" aria-hidden="true"></span>
+              <div class="stop-card">
+                <span class="stop-num">6</span>
+                <p class="stop-status">Later</p>
+                <h3>Backend development</h3>
+                <p>A future focus, with Java as the foundation.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EDUCATION ================= -->
+    <section class="section education" id="education" aria-labelledby="education-title">
+      <div class="wrap">
+        <h2 class="section-title" id="education-title" data-reveal>Education</h2>
+
+        <div class="edu-list">
+          <article class="entry">
+            <div class="entry-head">
+              <h3>Government Engineering College, Karwar</h3>
+              <p class="entry-meta">Expected graduation 2029</p>
+            </div>
+            <p>Bachelor of Engineering in Computer Science and Engineering</p>
+            <p class="entry-detail">Currently in 2nd year, 3rd semester</p>
+            <!-- ENABLE WHEN READY (optional): CGPA
+            <p class="entry-detail">CGPA: X.XX</p>
+            -->
+          </article>
+
+          <article class="entry">
+            <div class="entry-head">
+              <h3>Jawahar Navodaya Vidyalaya, Uttara Kannada</h3>
+              <p class="entry-meta">Classes 6 to 12</p>
+              <!-- ENABLE WHEN READY (optional): years attended
+              <p class="entry-meta">YEAR to YEAR</p>
+              -->
+            </div>
+            <p>Schooling</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ENABLE WHEN READY: Certifications and achievements. Add only verified items. Also add a nav link.
+    <section class="section certs" id="certifications" aria-labelledby="certs-title">
+      <div class="wrap">
+        <h2 class="section-title" id="certs-title" data-reveal>Certifications and achievements</h2>
+        <ul class="work-list">
+          <li>
+            <span class="work-name">CERTIFICATE NAME</span>
+            <span class="work-lang">ISSUER</span>
+            <span class="work-desc">MONTH YEAR</span>
+            <a href="PROOF-URL" target="_blank" rel="noopener">View</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    -->
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="wrap">
+        <h2 class="section-title contact-title" id="contact-title" data-reveal>Let's talk</h2>
+        <p class="contact-lead">
+          I'm looking for software development opportunities. Email is the best way to reach me.
+        </p>
+
+        <div class="email-row">
+          <a class="email-link" href="mailto:bhuvannaik030@gmail.com">bhuvannaik030@gmail.com</a>
+          <button class="btn btn-ghost copy-btn" type="button" data-copy="bhuvannaik030@gmail.com">Copy email</button>
+        </div>
+
+        <ul class="socials">
+          <li>
+            <a href="https://github.com/bhuvan-naik" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+              GitHub
+            </a>
+          </li>
+          <!-- ENABLE WHEN READY: LinkedIn
+          <li><a href="https://www.linkedin.com/in/YOUR-PROFILE" target="_blank" rel="noopener">LinkedIn</a></li>
+          -->
+          <!-- ENABLE WHEN READY (optional): phone
+          <li><a href="tel:+91XXXXXXXXXX">+91 XXXXX XXXXX</a></li>
+          -->
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>Bhuvan Mohan Naik, Karwar</p>
+      <p>&copy; <span data-year>2026</span></p>
+    </div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite" data-toast></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js" defer></script>
+  <script src="js/taskmate.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
